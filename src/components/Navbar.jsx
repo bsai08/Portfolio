@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import pic from "/photo.avif";
+import pic from "/boy.png";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
@@ -29,10 +29,10 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 bg-sky-600 left-0 right-0 z-50 bg-white">
-        <div className="flex justify-between items-center h-16 bg-sky-600">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 bg-sky-600 left-0 right-0 z-50 bg-white-100">
+        <div className="flex justify-between items-center h-16  bg-sky-600">
           <div className=" flex space-x-2">
-            <img src={pic} className="h-12 w-12 rounded-full" alt="" />
+            <img src={pic} className="h-14 w-14 rounded-full bg-white" alt="" />
             <h1 className="font-semibold text-xl text-white cursor-pointer">
               Sai <span className="text-grey-500 text-2xl">B</span>
               <p className="text-sm">Web Developer</p>

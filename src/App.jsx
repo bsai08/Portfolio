@@ -17,7 +17,7 @@ function App() {
       <Experiance />
       <Contact />
       <Footer /> */}
-      <div>
+      <div className="bg-[#daeff4]">
         <Navbar />
         <Home />
         <About />
